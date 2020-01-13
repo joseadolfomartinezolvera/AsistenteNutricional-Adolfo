@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/importancia"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/alimentos"
+            android:fontFamily="sans-serif-black"
+            android:text="Importancia"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/receta"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/convinacion"
+            android:fontFamily="sans-serif-black"
+            android:text="Recetas"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/noticias"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/news"
+            android:fontFamily="sans-serif-black"
+            android:text="Noticias"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

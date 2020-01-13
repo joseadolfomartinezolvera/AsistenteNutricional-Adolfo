@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RecetasOpciones"
+    tools:showIn="@layout/activity_recetas_opciones">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-black"
+            android:paddingBottom="25dp"
+            android:text='"La mala alimentación acompaña a los jóvenes universitarios, pues según datos de la última
+            Encuesta Nacional de la Situación Nutricional en Colombia, uno de cada tres jóvenes entre 18 y 24 años no come
+            frutas diariamente, cinco de cada 7 no consumen verduras y siete de cada diez incorporan comida de la calle en su alimentación diaria.
+            Cifras que demuestran lo importante de promover principios básicos a la hora de comer y estilos de vida saludables que eviten
+            enfermedades tan comunes entre los universitarios como la migraña o la gastritis."'
+            android:textSize="18dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btnDesayuno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desayuno" />
+
+            <Button
+                android:id="@+id/btnComida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comida" />
+
+            <Button
+                android:id="@+id/btnCena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cena" />
+        </LinearLayout>
+
+        <include layout="@layout/btn_volver" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

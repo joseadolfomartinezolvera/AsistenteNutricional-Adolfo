@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.eivier.myapplication.MainActivity">
+    <item
+        android:id="@+id/desayuno"
+        android:orderInCategory="100"
+        android:title="Desayuno" />
+    <item
+        android:id="@+id/comida"
+        android:orderInCategory="100"
+        android:title="Comida" />
+    <item
+        android:id="@+id/cena"
+        android:orderInCategory="100"
+        android:title="Cena" />
+    <item
+        android:id="@+id/principal"
+        android:orderInCategory="200"
+        android:title="Principal" />
+</menu>

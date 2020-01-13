@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eivier.asistentenutricional">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".recetasDesayuno.Desayuno01"></activity>
+        <activity android:name=".recetasComida.Comida01" />
+        <activity android:name=".recetasCena.Cena01" />
+        <activity android:name=".opciones.Comidas" />
+        <activity android:name=".opciones.Cenas" />
+        <activity android:name=".opciones.Desayunos" />
+        <activity
+            android:name=".RecetasOpciones"
+            android:label="Opciones de receta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Importancia"
+            android:label="Importancia de comer bien" />
+        <activity
+            android:name=".Noticias"
+            android:label="Noticias" />
+        <activity
+            android:name=".Principal"
+            android:label="Opciones" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
